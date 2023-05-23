@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5600e7b9-403d-4abe-9b71-97eec1614781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreatedUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeleteUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dto/CreateUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dto/CreateUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dto/DeleteUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dto/InvalidErrorResponse.java" afterDir="false" />
+    <list default="true" id="5600e7b9-403d-4abe-9b71-97eec1614781" name="Changes" comment="added API tests to create and to delete users">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreatedUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreatedUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeleteUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeleteUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dto/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dto/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dto/DeleteUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dto/InvalidDeleteUserResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,53 +58,51 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DeleteUserTest.deleteCreatedUser">
-    <configuration name="CreatedUserTest.createdUserWithoutEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeleteUserTest">
+    <configuration name="CreatedUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reqin-rest-assured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CreatedUserTest" />
-      <option name="METHOD_NAME" value="createdUserWithoutEmail" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatedUserTest.createUserWithoutPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reqin-rest-assured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreatedUserTest" />
+      <option name="METHOD_NAME" value="createUserWithoutPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatedUserTest.createdUserWithoutFullName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreatedUserTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reqin-rest-assured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CreatedUserTest" />
-      <option name="METHOD_NAME" value="createdUserWithoutFullName" />
+      <option name="METHOD_NAME" value="getUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatedUserTest.createdUserWithoutPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreatedUserTest.withoutPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reqin-rest-assured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CreatedUserTest" />
-      <option name="METHOD_NAME" value="createdUserWithoutPassword" />
+      <option name="METHOD_NAME" value="withoutPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatedUserTest.successfulCreatedUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="reqin-rest-assured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreatedUserTest" />
-      <option name="METHOD_NAME" value="successfulCreatedUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteUserTest.deleteCreatedUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reqin-rest-assured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DeleteUserTest" />
-      <option name="METHOD_NAME" value="deleteCreatedUser" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeleteUserTest.deleteCreatedUser" />
-        <item itemvalue="JUnit.CreatedUserTest.createdUserWithoutPassword" />
-        <item itemvalue="JUnit.CreatedUserTest.createdUserWithoutFullName" />
-        <item itemvalue="JUnit.CreatedUserTest.createdUserWithoutEmail" />
-        <item itemvalue="JUnit.CreatedUserTest.successfulCreatedUser" />
+        <item itemvalue="JUnit.DeleteUserTest" />
+        <item itemvalue="JUnit.CreatedUserTest" />
+        <item itemvalue="JUnit.CreatedUserTest.getUser" />
+        <item itemvalue="JUnit.CreatedUserTest.createUserWithoutPassword" />
+        <item itemvalue="JUnit.CreatedUserTest.withoutPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +139,18 @@
       <option name="presentableId" value="Default" />
       <updated>1683660997613</updated>
     </task>
+    <task id="LOCAL-00001" summary="added API tests to create and to delete users">
+      <created>1684312587692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684312587692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added API tests to create and to delete users" />
+    <option name="LAST_COMMIT_MESSAGE" value="added API tests to create and to delete users" />
   </component>
 </project>

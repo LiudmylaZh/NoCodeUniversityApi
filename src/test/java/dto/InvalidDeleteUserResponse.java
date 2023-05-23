@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class DeleteUserResponse {
+public class InvalidDeleteUserResponse {
     private String code;
     private String message;
     private String instance;
